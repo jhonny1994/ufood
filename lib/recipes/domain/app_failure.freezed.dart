@@ -18,20 +18,20 @@ final _privateConstructorUsedError = UnsupportedError(
 mixin _$AppFailure {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(int? errorCode) api,
-    required TResult Function(String? errorMessage) message,
+    required TResult Function(int errorCode) api,
+    required TResult Function(String errorMessage) message,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(int? errorCode)? api,
-    TResult? Function(String? errorMessage)? message,
+    TResult? Function(int errorCode)? api,
+    TResult? Function(String errorMessage)? message,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(int? errorCode)? api,
-    TResult Function(String? errorMessage)? message,
+    TResult Function(int errorCode)? api,
+    TResult Function(String errorMessage)? message,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -79,7 +79,7 @@ abstract class _$$_ApiCopyWith<$Res> {
   factory _$$_ApiCopyWith(_$_Api value, $Res Function(_$_Api) then) =
       __$$_ApiCopyWithImpl<$Res>;
   @useResult
-  $Res call({int? errorCode});
+  $Res call({int errorCode});
 }
 
 /// @nodoc
@@ -91,13 +91,13 @@ class __$$_ApiCopyWithImpl<$Res> extends _$AppFailureCopyWithImpl<$Res, _$_Api>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? errorCode = freezed,
+    Object? errorCode = null,
   }) {
     return _then(_$_Api(
-      freezed == errorCode
+      null == errorCode
           ? _value.errorCode
           : errorCode // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as int,
     ));
   }
 }
@@ -108,7 +108,7 @@ class _$_Api extends _Api {
   const _$_Api(this.errorCode) : super._();
 
   @override
-  final int? errorCode;
+  final int errorCode;
 
   @override
   String toString() {
@@ -136,8 +136,8 @@ class _$_Api extends _Api {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(int? errorCode) api,
-    required TResult Function(String? errorMessage) message,
+    required TResult Function(int errorCode) api,
+    required TResult Function(String errorMessage) message,
   }) {
     return api(errorCode);
   }
@@ -145,8 +145,8 @@ class _$_Api extends _Api {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(int? errorCode)? api,
-    TResult? Function(String? errorMessage)? message,
+    TResult? Function(int errorCode)? api,
+    TResult? Function(String errorMessage)? message,
   }) {
     return api?.call(errorCode);
   }
@@ -154,8 +154,8 @@ class _$_Api extends _Api {
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(int? errorCode)? api,
-    TResult Function(String? errorMessage)? message,
+    TResult Function(int errorCode)? api,
+    TResult Function(String errorMessage)? message,
     required TResult orElse(),
   }) {
     if (api != null) {
@@ -197,10 +197,10 @@ class _$_Api extends _Api {
 }
 
 abstract class _Api extends AppFailure {
-  const factory _Api(final int? errorCode) = _$_Api;
+  const factory _Api(final int errorCode) = _$_Api;
   const _Api._() : super._();
 
-  int? get errorCode;
+  int get errorCode;
   @JsonKey(ignore: true)
   _$$_ApiCopyWith<_$_Api> get copyWith => throw _privateConstructorUsedError;
 }
@@ -211,7 +211,7 @@ abstract class _$$_MessageCopyWith<$Res> {
           _$_Message value, $Res Function(_$_Message) then) =
       __$$_MessageCopyWithImpl<$Res>;
   @useResult
-  $Res call({String? errorMessage});
+  $Res call({String errorMessage});
 }
 
 /// @nodoc
@@ -224,13 +224,13 @@ class __$$_MessageCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? errorMessage = freezed,
+    Object? errorMessage = null,
   }) {
     return _then(_$_Message(
-      freezed == errorMessage
+      null == errorMessage
           ? _value.errorMessage
           : errorMessage // ignore: cast_nullable_to_non_nullable
-              as String?,
+              as String,
     ));
   }
 }
@@ -241,7 +241,7 @@ class _$_Message extends _Message {
   const _$_Message(this.errorMessage) : super._();
 
   @override
-  final String? errorMessage;
+  final String errorMessage;
 
   @override
   String toString() {
@@ -269,8 +269,8 @@ class _$_Message extends _Message {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(int? errorCode) api,
-    required TResult Function(String? errorMessage) message,
+    required TResult Function(int errorCode) api,
+    required TResult Function(String errorMessage) message,
   }) {
     return message(errorMessage);
   }
@@ -278,8 +278,8 @@ class _$_Message extends _Message {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(int? errorCode)? api,
-    TResult? Function(String? errorMessage)? message,
+    TResult? Function(int errorCode)? api,
+    TResult? Function(String errorMessage)? message,
   }) {
     return message?.call(errorMessage);
   }
@@ -287,8 +287,8 @@ class _$_Message extends _Message {
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(int? errorCode)? api,
-    TResult Function(String? errorMessage)? message,
+    TResult Function(int errorCode)? api,
+    TResult Function(String errorMessage)? message,
     required TResult orElse(),
   }) {
     if (message != null) {
@@ -330,10 +330,10 @@ class _$_Message extends _Message {
 }
 
 abstract class _Message extends AppFailure {
-  const factory _Message(final String? errorMessage) = _$_Message;
+  const factory _Message(final String errorMessage) = _$_Message;
   const _Message._() : super._();
 
-  String? get errorMessage;
+  String get errorMessage;
   @JsonKey(ignore: true)
   _$$_MessageCopyWith<_$_Message> get copyWith =>
       throw _privateConstructorUsedError;

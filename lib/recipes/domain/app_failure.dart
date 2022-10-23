@@ -5,6 +5,6 @@ part 'app_failure.freezed.dart';
 @freezed
 class AppFailure with _$AppFailure {
   const AppFailure._();
-  const factory AppFailure.api(int? errorCode) = _Api;
-  const factory AppFailure.message(String? errorMessage) = _Message;
+  const factory AppFailure.api(int errorCode) = _Api;
+  const factory AppFailure.message(String errorMessage) = _Message;
 }
