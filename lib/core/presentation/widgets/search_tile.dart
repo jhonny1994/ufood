@@ -29,6 +29,7 @@ class _SearchTileState extends ConsumerState<SearchTile> {
         final recipe = await ref
             .watch(recipeStateNotifierProvider.notifier)
             .getRecipeDetails(widget.result.id);
+        if (!mounted) return;
         await AutoRouter.of(context).push(
           RecipeDetailsRoute(recipe: recipe),
         );
