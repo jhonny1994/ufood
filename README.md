@@ -6,12 +6,12 @@
 
 <table>
     <tr>
-         <td><img src="https://i.ibb.co/VpKCttQ/Google-Pixel-4-XL-Screenshot-1.png" alt="project-screenshot"> </td>
-         <td><img src="https://i.ibb.co/P5FqJZY/Google-Pixel-4-XL-Screenshot-2.png" alt="project-screenshot"> </td>
-         <td><img src="https://i.ibb.co/ZJCtWNk/Google-Pixel-4-XL-Screenshot-3.png" alt="project-screenshot"> </td>
-         <td><img src="https://i.ibb.co/VTVJ5wH/Google-Pixel-4-XL-Screenshot-4.png" alt="project-screenshot"> </td>
-         <td><img src="https://i.ibb.co/MgLzdvL/Google-Pixel-4-XL-Screenshot-5.png" alt="project-screenshot"> </td>
-         <td><img src="https://i.ibb.co/nfZHZ19/Google-Pixel-4-XL-Screenshot-6.png" alt="project-screenshot"> </td>
+         <td><img src="https://user-images.githubusercontent.com/29334417/197480668-f592918f-c51a-482c-bb53-9d3819667507.png" alt="project-screenshot"> </td>
+         <td><img src="https://user-images.githubusercontent.com/29334417/197480718-372b5c5e-b533-4b36-b0ef-dd2a0a959f2b.png" alt="project-screenshot"> </td>
+         <td><img src="https://user-images.githubusercontent.com/29334417/197480806-f1a491f5-89c0-4d36-9996-95750ce05521.png" alt="project-screenshot"> </td>
+         <td><img src="https://user-images.githubusercontent.com/29334417/197480901-39c7b703-845b-4510-a67f-e789026e32b9.png" alt="project-screenshot"> </td>
+         <td><img src="https://user-images.githubusercontent.com/29334417/197480956-fd220635-be99-4d1c-9eed-f12b968c498b.png" alt="project-screenshot"> </td>
+         <td><img src="https://user-images.githubusercontent.com/29334417/197481068-cf198aab-8e49-4ec8-81d2-b9a0b42e1cce.png" alt="project-screenshot"> </td>
     </tr>
 </table>
   
