@@ -4,18 +4,22 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://i.ibb.co/VpKCttQ/Google-Pixel-4-XL-Screenshot-1.png" alt="project-screenshot" width="400" height="400/">
+<table>
+  <tr>
+    <img src="https://i.ibb.co/VpKCttQ/Google-Pixel-4-XL-Screenshot-1.png" alt="project-screenshot" width="400" height="400/">
 
-<img src="https://i.ibb.co/P5FqJZY/Google-Pixel-4-XL-Screenshot-2.png" alt="project-screenshot" width="400" height="400/">
+    <img src="https://i.ibb.co/P5FqJZY/Google-Pixel-4-XL-Screenshot-2.png" alt="project-screenshot" width="400" height="400/">
 
-<img src="https://i.ibb.co/ZJCtWNk/Google-Pixel-4-XL-Screenshot-3.png" alt="project-screenshot" width="400" height="400/">
+    <img src="https://i.ibb.co/ZJCtWNk/Google-Pixel-4-XL-Screenshot-3.png" alt="project-screenshot" width="400" height="400/">
 
-<img src="https://i.ibb.co/VTVJ5wH/Google-Pixel-4-XL-Screenshot-4.png" alt="project-screenshot" width="400" height="400/">
+    <img src="https://i.ibb.co/VTVJ5wH/Google-Pixel-4-XL-Screenshot-4.png" alt="project-screenshot" width="400" height="400/">
 
-<img src="https://i.ibb.co/MgLzdvL/Google-Pixel-4-XL-Screenshot-5.png" alt="project-screenshot" width="400" height="400/">
+    <img src="https://i.ibb.co/MgLzdvL/Google-Pixel-4-XL-Screenshot-5.png" alt="project-screenshot" width="400" height="400/">
 
-<img src="https://i.ibb.co/nfZHZ19/Google-Pixel-4-XL-Screenshot-6.png" alt="project-screenshot" width="400" height="400/">
-
+    <img src="https://i.ibb.co/nfZHZ19/Google-Pixel-4-XL-Screenshot-6.png" alt="project-screenshot" width="400" height="400/">
+    </tr>
+</table>
+  
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. To gets all the dependencies listed in the pubspec.yaml</p>
