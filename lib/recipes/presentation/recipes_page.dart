@@ -56,14 +56,16 @@ class _RecipesPageState extends ConsumerState<RecipesPage> {
             const SizedBox(height: 5),
             state.when(
               loadFailure: (failure) {
-                return const Center(
-                  child: Text(
-                    'An error has occured, please try again.',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontSize: 16,
-                      color: textColor,
-                      fontWeight: FontWeight.w900,
+                return const Expanded(
+                  child: Center(
+                    child: Text(
+                      'An error has occured, please try again.',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 16,
+                        color: textColor,
+                        fontWeight: FontWeight.w900,
+                      ),
                     ),
                   ),
                 );
@@ -79,13 +81,15 @@ class _RecipesPageState extends ConsumerState<RecipesPage> {
                         size: 50,
                       ),
                       const SizedBox(height: 10),
-                      const Text(
-                        'Loading',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 16,
-                          color: textColor,
-                          fontWeight: FontWeight.w900,
+                      const Expanded(
+                        child: Text(
+                          'Loading',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 16,
+                            color: textColor,
+                            fontWeight: FontWeight.w900,
+                          ),
                         ),
                       ),
                     ],

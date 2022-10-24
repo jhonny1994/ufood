@@ -21,8 +21,7 @@ class FavoritesRepository {
 
   Future<void> toggleFavoriteState(Recipe recipe) async {
     final tempRecipe = recipe.toJson();
-    bool isLiked = tempRecipe['isLiked'] as bool;
-    isLiked = !isLiked;
+    tempRecipe['isLiked'] = !tempRecipe['isLiked'];
     await _recipeLocalService.toggleFavoriteState(Recipe.fromJson(tempRecipe));
     final result = await _store.findFirst(
       _sembastDatabase.instance,
